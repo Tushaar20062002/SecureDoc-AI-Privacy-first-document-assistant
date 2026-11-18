@@ -1,0 +1,22 @@
+# secrets & keys
+backend/.env
+backend/.keys/
+*.key
+
+# data (may contain masked documents / encrypted values)
+backend/*.db
+backend/*.db-*
+backend/storage/*
+backend/temp/*
+!backend/storage/.gitkeep
+!backend/temp/.gitkeep
+
+# python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node
+frontend/node_modules/
+frontend/dist/
